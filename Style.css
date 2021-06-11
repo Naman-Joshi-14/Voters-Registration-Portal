@@ -104,3 +104,82 @@ textarea {
   padding-left: 3px;
   border: rgb(0, 0, 0, 0.2) solid 1px;
 }
+
+#footer {
+  border-radius: 0px;
+  width: 100%;
+  height: 35vh;
+  background-color: rgb(31, 29, 29);
+  color: wheat;
+}
+
+#nav-social-img {
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  position: relative;
+  border-radius: 20px;
+  margin-top: 21px;
+}
+
+#nav-social-img img {
+  width: 50px;
+  height: 50px;
+  margin-top: 18px;
+  margin-right: 18px;
+  margin-left: 18px;
+  margin-bottom: 25px;
+  border-radius: 28px;
+}
+
+#nav-copyright {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+#nav-copyright a{
+  color: aliceblue;
+  text-shadow: 1px 0.01px 20px rgb(150, 149, 149);
+}
+
+#nav-copyright a:hover{
+  zoom: 102%;
+}
+
+#youtube-logo img{
+  width: 65px;
+  height: 47px;
+  border-radius: 8px;
+}
+
+.nav-copyright-item {
+  margin: 15px;
+}
+
+.nav-copyright-item a {
+  text-decoration: none;
+}
+
+#margin-line{
+  border: 1.5px solid grey;
+  border-radius: 10px;
+  width: 1200px;
+}
+
+#site-copyright{
+  margin-top: -10px;
+  text-align: center;
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-size: x-small;
+}
+
+#currentupdate{
+  text-align: center;
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-size: x-small;
+  position: relative;
+  margin-top: -25px;
+  color: wheat;
+}
